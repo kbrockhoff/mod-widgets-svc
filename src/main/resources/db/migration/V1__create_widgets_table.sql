@@ -1,0 +1,43 @@
+CREATE TABLE widgets (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(62) NOT NULL,
+    description VARCHAR(254)
+);
+
+-- Pre-populate widgets table with sample data
+INSERT INTO widgets (name, description) VALUES
+('Banshee', 'High-performance sports car with exceptional handling'),
+('Cheetah', 'Exotic supercar with sleek aerodynamic design'),
+('Comet', 'Classic sports car known for its speed and agility'),
+('Deluxo', 'Luxury grand tourer with advanced features'),
+('Infernus', 'Flagship supercar with striking aesthetics'),
+('Phoenix', 'Muscle car that rises above the competition'),
+('Stinger', 'Elegant convertible sports car'),
+('Turismo', 'Track-focused supercar with racing heritage'),
+('Coquette', 'American sports car with European styling'),
+('Dukes', 'Classic muscle car with raw power'),
+('Sabre', 'Iconic muscle car with aggressive styling'),
+('Voodoo', 'Vintage lowrider with unique character'),
+('Buccaneer', 'Classic cruiser with timeless appeal'),
+('Faction', 'Modern muscle car with retro inspiration'),
+('Ruiner', 'High-performance street machine'),
+('Vigero', 'Classic American muscle car'),
+('Virgo', 'Luxury coupe with distinctive design'),
+('Admiral', 'Executive sedan with comfort focus'),
+('Emperor', 'Vintage luxury sedan with presence'),
+('Merit', 'Mid-size sedan with balanced performance'),
+('Oracle', 'Premium executive car with modern tech'),
+('Premier', 'Compact sedan with efficient design'),
+('Regina', 'Classic station wagon with utility'),
+('Sentinel', 'High-end luxury sports sedan'),
+('Stretch', 'Extended wheelbase luxury limousine'),
+('Washington', 'Full-size luxury sedan with authority'),
+('Landstalker', 'Premium SUV with off-road capability'),
+('Mesa', 'Compact off-road utility vehicle'),
+('Patriot', 'Military-inspired civilian SUV'),
+('Rancher', 'Rugged off-road pickup truck'),
+('Sandking', 'Extreme off-road performance truck'),
+('Benson', 'Medium-duty delivery truck'),
+('Biff', 'Heavy-duty construction truck'),
+('Mule', 'Light commercial box truck'),
+('Packer', 'Heavy-duty car transport truck');

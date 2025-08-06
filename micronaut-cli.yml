@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: org.codekaizen.demos.widgets
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, data, data-jdbc, flyway, github-workflow-ci, graalvm, h2, http-client, jackson-databind, java, java-application, jdbc-hikari, jetty-server, jib, junit, log4j2, management, maven, micrometer, micrometer-annotation, micrometer-prometheus, micronaut-aop, micronaut-validation, mockito, openapi, openrewrite, readme, security-annotations, security-oauth2, shade, swagger-ui, toml, toml-build, tracing-opentelemetry-exporter-otlp]
